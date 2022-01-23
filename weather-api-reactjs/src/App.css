@@ -1,0 +1,33 @@
+
+
+.Weather{
+  background: linear-gradient(65deg, #6dced1cb, #f3f55dab 70%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: whitesmoke;
+}
+
+.fa-search .fa-cloud{
+  color: white;
+}
+
+.cloud{
+  color:whitesmoke;
+  font-size: 40px;
+  font-weight: 800;
+  animation: iconanimation 3s infinite;
+}
+
+.Image{
+  border-radius: 8px;
+}
+@keyframes iconanimation{
+  from{
+    transform: scale(0.5,0.5);
+  }
+  to{
+    transform: scale(1,1);
+  }
+}
