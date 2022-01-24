@@ -1,6 +1,5 @@
 import React, {useState} from "react";
 import './App.css';
-
 function App() {
  const [task, setTask] = useState("");
  const [taskList, setTaskList] = useState([]);
@@ -19,7 +18,7 @@ setTaskList([...taskList,taskDetails])
   }
 } 
 const deleteTask =(e,id)=>{
-  setTaskList(taskList.filter((task) => task.id !== id));
+  setTaskList(taskList.filter((task) => task.id != id));
 }
 
   return(

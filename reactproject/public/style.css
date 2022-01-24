@@ -1,0 +1,29 @@
+
+
+.TotalCard{
+  width: 100%;
+  background-color: coral;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+
+.cardname{
+  font-size: 45px;
+}
+
+.cardicon{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardicon .cardicons{
+  width: 25%;
+}
+
+.cardicon .cardicons i{
+  font-weight: 600;
+  font-size: 50px;
+}

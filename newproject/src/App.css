@@ -1,0 +1,71 @@
+body{
+  background: linear-gradient(#bdc3c7, #2c3e50);
+
+}
+
+.App{
+  background: linear-gradient(#bdc3c5, #2c3e55);
+  min-height: 700px;
+  width: 400px;
+  margin: 40px auto;
+}
+.App .ToDo{
+  background-color: #bdc3c7;
+  color: #2c3e50;
+  text-align: center;
+  padding: 5px;
+  font-family: 'Lucida Sans', sans-serif;
+}
+
+.App input[type=text]{
+  margin: 10px;
+  height: 50px;
+  width: 250px;
+  border-radius: 5px;
+  border: 0;
+  background-color: #bdc3c7;
+  cursor: pointer;
+  font-weight: bolder;
+  color: #2c3e50;
+
+}
+.App input::placeholder{
+  color: #2c3e50;
+  padding: 5px;
+}
+
+.App input:focus #todo button:focus{
+  outline: none;
+}
+
+.App button{
+  height: 50px;
+  width: 80px;
+  border-radius: 5px;
+  border: 0;
+  background-color: #2c3e50;
+  cursor: pointer;
+  font-weight: bolder;
+  color: #bdc3c7a1;
+}
+
+.ListItem{
+  margin: 10px;
+  height: 50px;
+  width: 250px;
+  border-radius: 5px;
+  list-style: none;
+  padding: 4px;
+  border: 0;
+  background-color: #bdc3c7;
+  cursor: pointer;
+  font-weight: bolder;
+  color: #2c3e50;
+  position: relative;
+}
+
+.Delete{
+  position: absolute;
+  right: 1px;
+  margin: -4px;
+}
